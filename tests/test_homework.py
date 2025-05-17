@@ -13,23 +13,23 @@ def test_homework():
     if not os.path.exists("homework/src/_internals/"):
         raise Exception("homework/src/_internals/ directory does not exist")
 
-    if not os.path.exists("homework/src/_internals/argument_parser.py"):
-        raise Exception("homework/src/_internals/argument_parser.py does not exist")
+    if not os.path.exists("homework/src/_internals/parse_args_mixin.py"):
+        raise Exception("homework/src/_internals/parse_args_mixin.py does not exist")
 
-    if not os.path.exists("homework/src/_internals/factory.py"):
-        raise Exception("homework/src/_internals/factory.py does not exist")
+    if not os.path.exists("homework/src/_internals/read_all_lines_mixin.py"):
+        raise Exception("homework/src/_internals/read_all_lines_mixin.py does not exist")
 
-    if not os.path.exists("homework/src/_internals/folder_manager.py"):
-        raise Exception("homework/src/_internals/folder_manager.py does not exist")
+    if not os.path.exists("homework/src/_internals/preprocess_lines_mixin.py"):
+        raise Exception("homework/src/_internals/preprocess_lines_mixin.py does not exist")
 
-    if not os.path.exists("homework/src/_internals/result_saver.py"):
-        raise Exception("homework/src/_internals/result_saver.py does not exist")
+    if not os.path.exists("homework/src/_internals/split_into_words_mixin.py"):
+        raise Exception("homework/src/_internals/split_into_words_mixin.py does not exist")
 
-    if not os.path.exists("homework/src/_internals/word_count_process.py"):
-        raise Exception("homework/src/_internals/word_count_process.py does not exist")
+    if not os.path.exists("homework/src/_internals/count_words_mixin.py"):
+        raise Exception("homework/src/_internals/count_words_mixin.py does not exist")
 
-    if not os.path.exists("homework/src/_internals/word_counter.py"):
-        raise Exception("homework/src/_internals/word_counter.py does not exist")
+    if not os.path.exists("homework/src/_internals/write_count_words_mixin.py"):
+        raise Exception("homework/src/_internals/write_count_words_mixin.py does not exist")
 
     if not os.path.exists("homework/src/main.py"):
         raise Exception("homework/src/main.py does not exist")
